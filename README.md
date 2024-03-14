@@ -4,11 +4,11 @@
 <br>
 
 
-### Installation:
+###Installation in Tweak.xm:
 
 **Tweak.xm**
 
-### Menu setup:
+
 
 **Add aimbot code**
 Lines 1-45 (NormalizeAngle, NormalizeAngles, ToEulerRad) add to the beginning of your file **Tweak.xm**, make sure you have structures me_t and enemy_t, then add to hook void player_update:

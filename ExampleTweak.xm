@@ -1,3 +1,7 @@
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
 #import "Macros.h"
 #import "Vector3.h"
 #import "Quaternion.h"
@@ -11,6 +15,12 @@ float NormalizeAngle (float angle){
         angle += 360;
     return angle;
 }
+
+
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
 
 Vector3 NormalizeAngles (Vector3 angles){
     angles.x = NormalizeAngle (angles.x);
@@ -48,6 +58,11 @@ Vector3 ToEulerRad(Quaternion q1){
     v.z = atan2f (2.0f * q.x * q.y + 2.0f * q.z * q.w, 1 - 2.0f * (q.y * q.y + q.z * q.z)); // roll
     return NormalizeAngles (v * Rad2Deg);
 }
+
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
 
 void *(*get_transform)(void *);
 Vector3 (*get_position)(void *);
@@ -116,6 +131,11 @@ void new_player_update(void *player)
     old_player_update(player);
 }
 
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
+
 void setup()
 {
     me = new me_t();
@@ -136,10 +156,10 @@ void setupMenu() {
 
     [menu setFrameworkName:"UnityFramework"];
     menu = [[Menu alloc]  
-        initWithTitle:@"unknown shit"
+        initWithTitle:@"andrdev"
         titleColor:[UIColor whiteColor]
         titleFont:@"Helvetica-Bold"
-        credits:@"This code has been written by Sier.\n\nEnjoy!"
+        credits:@"This code has been written by andrdev.\n\nEnjoy!"
         headerColor:UIColorFromHex(0x343642)
         switchOffColor:[UIColor clearColor]
         switchOnColor:UIColorFromHex(0x343642)
@@ -154,6 +174,13 @@ void setupMenu() {
     setup();
 }
 
+
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
+
+
 static void didFinishLaunching(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef info) {
     timer(1) {
         setupMenu();
@@ -164,3 +191,7 @@ static void didFinishLaunching(CFNotificationCenterRef center, void *observer, C
 %ctor {
     CFNotificationCenterAddObserver(CFNotificationCenterGetLocalCenter(), NULL, &didFinishLaunching, (CFStringRef)UIApplicationDidFinishLaunchingNotification, NULL, CFNotificationSuspensionBehaviorDeliverImmediately);
 }
+
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv

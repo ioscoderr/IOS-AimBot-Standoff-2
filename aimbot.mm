@@ -6,6 +6,9 @@ float NormalizeAngle (float angle){
     return angle;
 }
 
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
 
 Vector3 NormalizeAngles (Vector3 angles){
     angles.x = NormalizeAngle (angles.x);
@@ -44,10 +47,18 @@ Vector3 ToEulerRad(Quaternion q1){
     return NormalizeAngles (v * Rad2Deg);
 }
 
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
 
 
 void *aimcontroller = *(void **)((uint64_t)player + 0x60);
 void *aimingdata = *(void **)((uint64_t)aimcontroller + 0x90);
+
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+
 
 if ([switches isSwitchOn:@"AimBot"])
 {
@@ -60,3 +71,6 @@ if ([switches isSwitchOn:@"AimBot"])
     }
 }
 
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv
+//https://t.me/andrdevvv

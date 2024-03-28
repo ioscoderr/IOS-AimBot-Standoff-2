@@ -37,6 +37,6 @@ if ([switches isSwitchOn:@"AimBot"])
 ```
 
 ### Credits:
-* [andrdev](https://t.me/andrdevvv)
+* [iosdev](https://t.me/developerioscoder)
 
 
